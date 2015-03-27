@@ -1,0 +1,1 @@
+console.log("scipm.exec is not a classic nodejs/iojs module")

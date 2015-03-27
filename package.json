@@ -1,0 +1,46 @@
+{
+    "main": "index.js",
+    "name": "scipm.exec",
+    "version": "0.1.0",
+    "description": "scipm.exec allow popen without temporary cmd on PLAT_WIN",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aminassian/scipm.exec.git"
+    },
+    "bugs": {
+        "type": "git",
+        "url": "git://github.com/aminassian/scipm.exec/issues"
+    },
+    "keywords": [
+        "scipm",
+        "exec",
+        "popen"
+    ],
+    "dependencies": {
+        "scipm": "^0.1.2"
+    },
+    "scipmchild": {
+        "version": "1",
+        "scipmDependencies": {},
+        "luaRequire": [],
+        "SciTEStartup": {
+            "_use": "dofile",
+            "raw": null,
+            "filePath": null,
+            "dofile": ["scite", "main.lua"],
+            "luaReportExtend": "scipm.core.printInfoPackage('scipm.exec');",
+            "infoLuaFunctions": [
+                {"name": "scipm.exec(cmd)"}
+            ],
+            "infoFiles" : [
+                {"path": ["README.md" ]},
+                {"path": ["package.json" ]},
+                {"path": ["scite", "main.lua" ]}
+            ],
+            "infoProps": [
+            ]
+        },
+        "actions": {}
+    }
+}

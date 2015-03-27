@@ -1,0 +1,1 @@
+- author : https://github.com/mkottman- ``dll`` and ``so`` extract from https://github.com/mkottman/scite (https://github.com/mkottman/scite/tree/master/scite/custom/scite-debug)
