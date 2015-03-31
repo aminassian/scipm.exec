@@ -1,10 +1,12 @@
 # scipm.exec
 
+scipm.exec is a [scipm](https://github.com/aminassian/scipm) package
+
 ## install
 
 ```
 cd myScipmProject
-scipm install scipm.exec --save
+npm install scipm.exec --save
 scipm build
 # restart SciTE
 ```

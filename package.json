@@ -1,7 +1,7 @@
 {
     "main": "index.js",
     "name": "scipm.exec",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "scipm.exec allow popen without temporary cmd on PLAT_WIN",
     "license": "GPL-3.0",
     "repository": {
@@ -13,12 +13,11 @@
         "url": "git://github.com/aminassian/scipm.exec/issues"
     },
     "keywords": [
-        "scipm",
+        "scipm-package",
         "exec",
         "popen"
     ],
     "dependencies": {
-        "scipm": "^0.1.2"
     },
     "scipmchild": {
         "version": "1",
